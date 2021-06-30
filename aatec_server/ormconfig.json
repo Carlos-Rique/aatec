@@ -1,0 +1,14 @@
+{
+  "type": "mysql",
+  "database": "sis_gti",
+  "host": "localhost",
+  "port": 3306,
+  "username": "root",
+  "password": "",
+  "migrations": ["./src/database/migrations/**.ts"],
+  "entities": ["./src/models/**.ts"],
+  "logging": true,
+  "cli": {
+    "migrationsDir": "./src/database/migrations"
+  }
+}
